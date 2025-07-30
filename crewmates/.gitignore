@@ -24,7 +24,12 @@ dist-ssr
 *.sw?
 
 # Project documentation and phase files
-PHASE_*.md
+PHASE_1_COMPLETE.md
+PHASE_2_COMPLETE.md
+PHASE_3_COMPLETE.md
+PHASE_4_COMPLETE.md
+PHASE_5_COMPLETE.md
 PROJECT_COMPLETE.md
 QUICK_START.md
 SUPABASE_SETUP.md
+DEPLOYMENT_GUIDE.md

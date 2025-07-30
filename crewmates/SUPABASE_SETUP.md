@@ -12,13 +12,9 @@
 
 Run the following SQL in your Supabase SQL editor:
 
-**Note:** If you get an error saying "relation 'crewmates' already exists", you can either:
-- Skip the table creation and run only the parts after the table creation
-- Or drop the existing table first with: `DROP TABLE IF EXISTS crewmates CASCADE;`
-
 ```sql
--- Create the crewmates table (skip if already exists)
-CREATE TABLE IF NOT EXISTS crewmates (
+-- Create the crewmates table
+CREATE TABLE crewmates (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   name TEXT NOT NULL CHECK (length(name) > 0),
   speed INTEGER NOT NULL CHECK (speed >= 0 AND speed <= 100),
