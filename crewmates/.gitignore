@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project documentation and phase files
+PHASE_*.md
+PROJECT_COMPLETE.md
+QUICK_START.md
+SUPABASE_SETUP.md
